@@ -94,7 +94,9 @@ async function generateNavData(contentDir, subpath = "", parentRoute = "") {
           path.resolve(contentDir, subpath, parentRoute, fullPath),
           "utf-8"
         );
-        const { nav_title } = matter(mdxFileString);
+        const {
+          data: { nav_title },
+        } = matter(mdxFileString);
         const fileNoExt = fullPath.replace(path.extname(fullPath), "");
         const baseName = path.basename(fileNoExt);
         const routePath =
