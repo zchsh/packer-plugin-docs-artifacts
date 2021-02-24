@@ -10,6 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "MPL-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "gray-matter": "^4.0.2"
   }
