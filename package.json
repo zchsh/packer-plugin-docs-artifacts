@@ -1,0 +1,15 @@
+{
+  "name": "@hashicorp/packer-plugin-docs-artifacts",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "gray-matter": "^4.0.2"
+  }
+}
